@@ -1,0 +1,3 @@
+Just a repo of my dot files. Anything that would live under your home directory (`~/`) lives in the [`home_directory`](./home_directory) folder here.
+
+More config to come...
