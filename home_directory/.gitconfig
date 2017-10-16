@@ -20,6 +20,3 @@
 	unstage = reset HEAD
 	wip = !git add -u && git commit -m "WIP"
 	wipe = !git add -A && git commit -qm "WIPE SAVEPOINT" && git reset HEAD~1 --hard
-[user]
-	name = Andrew Van Slaars
-	email = avanslaars@gmail.com
