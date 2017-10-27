@@ -15,6 +15,7 @@
 	s = status
 	st = status -sb
 	save = !git add -A && git commit -m "SAVEPOINT"
+	tagcommit = rev-list -n 1
 	undo = reset HEAD~1 --mixed
 	unpub = "!git push origin :$(git branch-name)"
 	unstage = reset HEAD
